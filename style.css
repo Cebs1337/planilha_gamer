@@ -1,0 +1,189 @@
+body {
+    background-color: rgba(189, 3, 3, 0.641);
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho (cor escura, pode ser personalizada) */
+    color: #fff; /* Cor do texto no cabeçalho (branco) */
+    padding: 20px; /* Espaçamento interno no cabeçalho */
+}
+
+/* Estilo para o conteúdo principal (main) */
+main {
+    background-color: #fff; /* Cor de fundo da seção principal (branco, pode ser personalizada) */
+    color: #333; /* Cor do texto na seção principal (cor escura) */
+    padding: 20px; /* Espaçamento interno na seção principal */
+    margin-top: 20px; /* Espaço entre o cabeçalho e a seção principal */
+}
+
+
+
+/* Estilos para o cabeçalho*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fff; 
+    color: #333; 
+}
+
+/* Estilo para a seção de início */
+#inicio {
+    background-color: #333; /* Cor de fundo (azul, pode ser personalizada) */
+    color: #fff; /* Cor do texto (branco) */
+    text-align: center; /* Centralizar o texto horizontalmente */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    max-width: 800px; /* Largura máxima para o conteúdo da seção */
+    margin: 0 auto; /* Centralizar a seção horizontalmente na tela */
+
+
+}
+
+/* Estilo para o título (h2) na seção de início */
+#inicio h2 {
+    font-size: 2em; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento inferior para o título */
+}
+
+/* Estilo para os parágrafos (p) na seção de início */
+#inicio p {
+    font-size: 1.2em; /* Tamanho do texto */
+    margin: 0; /* Remover margens padrão para parágrafos */
+}
+
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer-logo h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.footer-nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+#yakuse {
+    text-decoration: none;
+}
+
+/* Estilos para a tabela de jogos */
+#jogos {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#jogos h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 10px; 
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center; 
+}
+
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f7f7f7; 
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.indice {
+    background-color: rgba(255, 0, 0, 0.189);
+    padding: 2.5px;
+}
+
+/* Estilo do link "Análise" */
+.link {
+    text-decoration: none; /* Remove a decoração sublinhada */
+    color: #333; /* Cor do texto padrão */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Efeito de hover para o link "Análise" */
+.link:hover {
+    color: #007bff; /* Cor do texto no hover (azul, por exemplo) */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
